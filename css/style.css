@@ -1,0 +1,153 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hidden {
+    display: none;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+}
+
+body {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    color: white;
+}
+#today {
+    font-weight: 200;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+#clock {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 20px 0px;    
+    font-size: 150px;
+}
+.login-question {
+    font-size: 40px;
+    font-weight: 800px;
+}
+.inputbox {
+    width: 450px;
+    height: 25px;
+    margin: 20px 0px 20px 0px;
+    background: transparent;
+    border-style:none;
+    border-bottom:solid 3px #cacaca;
+    border-collapse:collapse;
+}
+#greeting {
+    font-size: 40px;
+    font-weight: 800px;
+}
+#todo-form {
+    margin-top: 20px;
+}
+.todo-question {
+    font-size: 30px;
+    font-weight: 700px; 
+}
+.todobox {
+    width: 450px;
+    height: 30px;
+    margin: 20px 0px 5px 0px;
+    background: transparent;
+    border-style:none;
+    border-bottom:solid 1px #cacaca;
+    border-collapse:collapse;
+    color: white;
+    font-size: 30px;
+}
+#todo-list {
+    font-size: 30px;
+    font-style: italic;
+    list-style: square inside;
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+.todo-btn {
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    font-size: 12px;
+    cursor: pointer; 
+}
+.todo-btn:hover {
+    background-color: RoyalBlue;
+}
+#quote {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 30px;    
+}
+#weather {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 20px 40px 0px 0px;
+    padding: 10px;
+    font-size: 20px;    
+}
+.search{
+    margin-top: 30px;
+}
+button.img-button{
+    border: none;
+    background: transparent;
+    font-size: 1.125rem;
+    color: white;
+}
+.fas{
+    color: white;
+}
+.keyword{
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    width: 200px;
+    color: white;
+    font-size: 1.063rem;
+    font-style: "Malgun Gothic";
+    opacity: 0;
+    transition: 0.4s;
+}
+select {
+    border: none;
+    outline: none;
+    width: 80px;
+    font-size: 1.125rem;
+    font-weight: 200;
+    background: transparent;
+    color: white;
+    opacity: 0;
+    transition: 0.4s;
+}
+select option {
+    background-color: black;
+}
+.search:hover > .keyword{
+    opacity: 1;
+}
+.search:hover > select{
+    opacity: 1;
+}
